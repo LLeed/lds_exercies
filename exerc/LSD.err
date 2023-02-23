@@ -1,0 +1,16 @@
+
+
+====================> NEW TCL SESSION
+
+(02/23/23 11:26:36)
+Command:
+variable must have real value
+    (write trace on "value1")
+    invoked from within
+"set value1 -NaN"
+    invoked from within
+"if { [ string is double -strict $n ] } { set value1 -NaN; return 1 } { .sa.m.f1.val.i.l1.e1 delete 0 end; .sa.m.f1.val.i.l1.e1 insert 0 $value1; set e..."
+	(in -validatecommand validation command executed by .sa.m.f1.val.i.l1.e1)
+Message:
+can't set "value1": variable must have real value
+-----
